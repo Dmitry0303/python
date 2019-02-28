@@ -1,8 +1,4 @@
-number1 = int(input("Введите 1-е число "))
-number2 = int(input("Введите 2-е число "))
-tmp = number1
-number1 = number2
-number2 = tmp
-print("После перестановки:")
-print("1-е число: ", number1)
-print("2-е число: ", number2)
+list1 = {1, 2, 3, 4}
+list2 = {4, 5, 6, 7, 8}
+list1 = list1.difference(list2)
+print(list1)

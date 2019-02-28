@@ -1,6 +1,4 @@
-number = int(input("Введите число "))
-while number // 10 != 0:
-    tmp = number % 10
-    number = number // 10
-    print(tmp)
-print(number)
+fruits = ['Яблоко', 'Груша', 'Банан', 'Киви']
+for fruit in fruits:
+    print(f"{fruits.index(fruit) + 1}. {fruit: >7}")
+

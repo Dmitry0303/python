@@ -1,9 +1,9 @@
-number = int(input("Введите число "))
-left = 2
-right = number // 2
-for i in range(2, right + 1):
-    if number % i == 0:
-        print("Число непростое")
-        break
-    elif i == right:
-        print("Число простое")
+text = input("Введите текст ")
+symcnt = 0
+for i in text:
+    if 'a' <= i <= 'z' or 'A' <= i <= 'Z':
+        symcnt += 1
+text = text.split(' ')
+wordcnt = len(text)
+print(f"Количество слов в тексте {wordcnt}")
+print(f"Количество английских букв в тексте {symcnt}")
