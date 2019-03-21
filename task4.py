@@ -1,0 +1,13 @@
+import random
+intleft = int(input("Введите левую границу целочисленного диапазона "))
+intright = int(input("Введите правую границу целочисленного диапазона "))
+floatleft = float(input("Введите левую границу вещественного диапазона "))
+floatright = float(input("Введите правую границу вещественного диапазона "))
+charleft = ord(input("Введите левую границу вещественного диапазона "))
+charright = ord(input("Введите правую границу вещественного диапазона "))
+randomint = random.randint(intleft, intright)
+randomfloat = random.uniform(floatleft, floatright)
+randomchar = chr(random.randint(charleft, charright))
+print(randomint)
+print(randomfloat)
+print(randomchar)
